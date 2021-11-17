@@ -47,3 +47,12 @@ img{
 video{
     margin-top: 50px;
 }
+@media screen and (max-width:768px){
+			 video{
+                 margin-top: 200px;
+                 margin-bottom: 40px;
+                 width: 100%;
+             }
+
+
+		 } 
