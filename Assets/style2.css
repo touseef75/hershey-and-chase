@@ -9,7 +9,7 @@
     background-image: url();
     background-position: center;
     background-size: cover;
-    background-color: #003f55;
+    background-color: #25455a;
 
 }
 button{
@@ -29,10 +29,11 @@ button{
 }
 
 .but{
-    display: flex;
-    justify-content: space-between;
+    /* display: flex;
+    justify-content: space-between; */
+    text-align: end;
     width: 90%;
-    margin: auto;
+    /* margin: auto; */
     
     cursor: pointer;
 }
@@ -45,7 +46,7 @@ img{
     position: absolute;
 }
 video{
-    margin-top: 50px;
+    margin-top: 30px;
 }
 @media screen and (max-width:768px){
 			 video{
