@@ -9,9 +9,10 @@
     background-image: url();
     background-position: center;
     background-size: cover;
-    background-color: #25455a;
+    background-color: #383f6f;
 
 }
+
 button{
     outline: none;
     font-size: 2rem;
@@ -36,6 +37,7 @@ button{
     /* margin: auto; */
     
     cursor: pointer;
+    /* position: absolute; */
 }
 
 
@@ -46,7 +48,9 @@ img{
     position: absolute;
 }
 video{
-    margin-top: 30px;
+    margin-top: 20px;
+    box-shadow: 10px 10px 50px  black;
+    border-radius: 20px;
 }
 @media screen and (max-width:768px){
 			 video{
